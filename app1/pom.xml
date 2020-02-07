@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>girgin.ramazan</groupId>
+    <artifactId>azure-spring-cloud-sample-app-1</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+
+    <name>Azure Spring Cloud Service Bus Sample App - 1</name>
+    <description>Azure Spring Cloud Service Bus Sample App - 1</description>
+    <url>https://github.com/ramazangirgin/azure-spring-cloud-service-bus-example/app1</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>spring-cloud-azure-servicebus-topic-stream-binder</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+    </dependencies>
+</project>
